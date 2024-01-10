@@ -18,3 +18,23 @@ Our database will have a single table, tasks, with the following columns:
     end_time, the time the task was stopped.
 
 First things first, create a virtual environment for your project:
+
+python3 -m venv .venv
+
+Then activate it (the command differs on Windows):
+
+source .venv/bin/activate
+
+Then let's create a file called requirements.txt, and put in all the libraries we need:
+
+fastapi
+uvicorn
+sqlalchemy
+databases[sqlite]
+pydantic
+python-dotenv
+
+To install all of these, run:
+
+pip install -r requirements.txt
+
