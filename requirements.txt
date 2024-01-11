@@ -1,6 +1,8 @@
+xmltodict
 fastapi
 uvicorn
-sqlalchemy
-databases[sqlite]
-pydantic
-python-dotenv
+starlette_exporter
+pyasn1
+pyasn1_modules
+requests
+fastapi_utils

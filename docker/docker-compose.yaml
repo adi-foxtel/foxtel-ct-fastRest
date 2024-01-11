@@ -1,0 +1,22 @@
+version: '3'
+services:
+  acc-api:
+    image: acc-api:latest
+    restart: always
+
+    ports:
+      - "9002:9002"
+    
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+    environment:
+      PLATFORM: "DEV"
+
+    healthcheck:
+       interval: 60s
+       timeout: 1s
+       retries: 3
+    logging:
+      options:
+        max-size: "10m"

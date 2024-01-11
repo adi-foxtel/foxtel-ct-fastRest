@@ -1,0 +1,1 @@
+docker run -p 9002:9002 -e LOG_LEVEL -it acc-api 

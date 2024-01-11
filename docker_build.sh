@@ -1,0 +1,1 @@
+docker build . -t acc-api -f docker/Dockerfile #--no-cache

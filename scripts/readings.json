@@ -1,0 +1,44 @@
+[
+    {
+        "carbon_contract_address": "0xe1F55EC7e237262777B2b243a1b98B35eaA15855",
+        "energy_contract_address": "0x55cB45e0D920fcEA56ef81Df33a71171fda9c168",
+        "ergon_contract_address": "0x310f19ADa743eF9E3F5B5022211240DfB40a2F6A",
+        "factor": 25,
+        "hepek": "0x5549A6Fb7C5Dc7c7c2772Ba45305AAE3E459bB41",
+        "info": "M001_NSW_2099_Dee_Why",
+        "meter": {
+            "ADDR": 1,
+            "AMPS": 0.0,
+            "EXPORT": 0.0,
+            "FREQUENCY": 49.94,
+            "IMPORT": 2.18,
+            "PF": 1.0,
+            "POWER": 0.0,
+            "TOTAL": 2.18,
+            "VOLTAGE": 238.4
+        },
+        "rpc": "http://192.9.184.69:8545",
+        "user": "0x1fbDf218aF4559e2987ce028ea874893C50c1179"
+    },
+    {
+        "carbon_contract_address": "0xe1F55EC7e237262777B2b243a1b98B35eaA15855",
+        "energy_contract_address": "0x55cB45e0D920fcEA56ef81Df33a71171fda9c168",
+        "ergon_contract_address": "0x310f19ADa743eF9E3F5B5022211240DfB40a2F6A",
+        "factor": 25,
+        "hepek": "",
+        "info": "M002_NSW_2095_Manly",
+        "meter": {
+            "ADDR": 1,
+            "AMPS": 1.214891532824832,
+            "EXPORT": 110,
+            "FREQUENCY": 50,
+            "IMPORT": 100,
+            "PF": 1,
+            "POWER": 0.29157396787795964,
+            "TOTAL": 225,
+            "VOLTAGE": 240.58216566864337
+        },
+        "rpc": "http://192.9.184.69:8545",
+        "user": "0x32A6A4160Ce92c368221e83Bd3A7a6b2b0c85002"
+    }
+]
