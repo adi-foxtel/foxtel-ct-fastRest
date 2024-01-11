@@ -37,10 +37,10 @@ pip3 install tornado
 
 pip3 install web3
 
-# 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
+# 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
 
 
-install docer
+install docker
 
 sudo apt update
 sudo apt install apt-transport-https ca-certificates curl software-properties-common
