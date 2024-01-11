@@ -37,7 +37,7 @@ pip3 install tornado
 
 pip3 install web3
 
-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
+# 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
 
 
 install docer
@@ -57,7 +57,6 @@ sudo usermod -aG docker $USER
 
 su - ${USER}
 groups
-
 
 
 sudo curl -L https://github.com/docker/compose/releases/download/v2.4.1/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
